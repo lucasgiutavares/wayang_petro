@@ -1,0 +1,1 @@
+docker run --rm -d --name wayang_env -v "%cd%"\mount:/home/jovyan/mount -p 50010:50010/tcp -p 50020:50020/tcp -p 50070:50070/tcp -p 50075:50075/tcp -p 50090:50090/tcp -p 8888:8888/tcp -p 9000:9000/tcp wayang_env:latest 
